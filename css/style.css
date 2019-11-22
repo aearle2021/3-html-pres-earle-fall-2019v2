@@ -26,6 +26,7 @@ background-position:center;
     
     }
 .black-shadow{ 
+font-color: white;
 text-shadow: 4px 4px 8px rgb (0,0,0)}
 
 
@@ -73,4 +74,41 @@ background-position:center;
     
     
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.fullscreen-img-5 { 
+/* image used*/ 
+background-image: url("../img/sunset2.jpeg");
+        
+/* full height */ 
+height: 100%;
+ 
+background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+} 
+
+.fullscreen-img-6 {
+background-image: url("../img/sunny.jpeg");
+    /* full height */ 
+height: 100%;
+ 
+background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.fullscreen-img-7 {
+background-image: url("../img/happy.jpeg");
+    /* full height */ 
+height: 100%;
+ 
+background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
